@@ -2,11 +2,11 @@ import Image from "next/image";
 import LogoSlider from "./logo";
 export default function Home() {
   return (
-    <>
+    <section className="bg-white">
       <section className="py-4 px-24 md:block hidden">
         <div className="flex justify-between items-center">
           <Image
-            src="/eatingtots.png"
+            src="/eatingTots.png"
             alt="eatingtots"
             width={90}
             height={100}
@@ -239,6 +239,6 @@ export default function Home() {
             Email: theoffice@eatingtots.org</p>
         </div>
       </section>
-    </>
+    </section>
   );
 }
