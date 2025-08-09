@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import Image from 'next/image';
 
 const logos = [
-  { src: '/eatingtots.png', alt: 'eatingtots' },
+  { src: '/eatingTots.png', alt: 'eatingtots' },
   { src: '/happyFace.png', alt: 'happyFace' },
   { src: '/usda.png', alt: 'usda' },
   { src: '/map.png', alt: 'map' },
