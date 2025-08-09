@@ -55,8 +55,8 @@ export default function Home() {
           <Image src="/apple.png" alt="apple" width={70} height={70} />
           <Image src="/banana.png" alt="banana" width={70} height={70} />
         </div>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-8 pt-4">
-          <div className="bg-[#0da84a] p-6">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-8 pt-4 text-black">
+          <div className="bg-[#0da84a] p-6 ">
             <h2 className="text-3xl font-bold text-center py-4 text-[#c1ff72]">
               Who Are We?
             </h2>
@@ -100,7 +100,7 @@ export default function Home() {
           <img src="/fruit3.png  " alt="fruit" width={220} height={220} />
         </div>
       </section>
-      <section className="bg-[#c1ff72] md:px-32 px-4 md:my-24 my-0 py-12 md:py-0">
+      <section className="bg-[#c1ff72] md:px-32 px-4 md:my-24 my-0 py-12 md:py-0 text-black">
         <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
           <div className="md:pr-12 pr-0 md:py-12 py-0">
             <h1 className="text-4xl font-bold py-6 text-[#0da84a]">
@@ -139,7 +139,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="md:px-32 px-4 md:py-24 py-24 relative">
+      <section className="md:px-32 px-4 md:py-24 py-24 relative text-black">
         <div className="flex items-center flex-col md:flex-row">
           <div className="side-text text-6xl font-bold md:block hidden">
             Board of Directors
