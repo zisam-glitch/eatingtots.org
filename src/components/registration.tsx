@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function registration() {
   return (
-    <section className="mt-12 relative z-9">
-      <div className="bg-[#c1ff72] md:px-32 px-4 py-12 flex flex-col md:flex-row justify-between md:items-center items-start">
+    <section className="mt-12">
+      <div className=" relative z-9 bg-[#c1ff72] md:px-32 px-4 py-12 flex flex-col md:flex-row justify-between md:items-center items-start">
         <h2 className="text-xl font-bold py-6 text-[#0da84a]">
           How to Enroll <br />
           Fill out our simple registration form below <br />
