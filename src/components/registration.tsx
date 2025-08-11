@@ -14,7 +14,6 @@ export default function registration() {
 
       </div>
       <div className="fixed bottom-[5%] left-[5%] ">
-        <a target="_blank" href="https://forms.gle/Ybe2n32C2cgtsLxb6"> <button className="bg-[#0da84a] text-white px-6 py-2 cursor-pointer rounded-lg">Register Now</button></a>
       </div>
 
     </section>

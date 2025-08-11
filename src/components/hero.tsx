@@ -17,14 +17,18 @@ export default function hero() {
             alt="banner"
             className="w-auto h-[350px] object-contain"
           />
+
         </div>
       </div>
-      <div className="md:w-[50%] w-[100%] md:absolute static bg-[#0da84a] md:top-[70%]  right-0">
-        <p className="text-white p-4 font-bold text-lg">
+      <div className="w-[100%] static bg-[#0da84a] ">
+        <div className='md:p-8 p-4  gap-4 flex flex-col md:flex-row items-start md:items-center justify-between'>
+        <p className="text-white font-bold text-lg">
           A New CACFP Sponsor is Coming Soon! 🌟 <br />
           Eating Tots Inc. is preparing to support providers like YOU! <br />
           Join our waitlist and be the first to know when we launch!
         </p>
+        <a target="_blank" href="https://forms.gle/Ybe2n32C2cgtsLxb6"> <button className="bg-white text-[#0da84a] px-6 py-2 cursor-pointer rounded-lg">Register Now</button></a>
+      </div>
       </div>
     </section>
   )
