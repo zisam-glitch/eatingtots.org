@@ -50,25 +50,6 @@ export default function directors() {
             networks.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-8 items-center">
-          <img
-            src="/member2.jpg"
-            className="rounded-lg md:w-[250px] h-[auto] w-[100%]"
-          />
-          <p>
-            Jeannette Tomala (Title: Secretary) Jeannette brings a strong
-            background in business management, supported by her Associate’s
-            degree in the field. She has over 15 years of experience in
-            clerical and administrative roles, including scheduling, file
-            management, and recordkeeping for child care programs. Her
-            attention to detail and organizational skills support the
-            documentation and compliance needs of the CACFP program.
-            Jeannette has a keen understanding of office systems and ensures
-            timely and accurate reporting. She is committed to ensuring that
-            the sponsor’s administrative foundation is strong, efficient,
-            and audit-ready.
-          </p>
-        </div>
       </div>
     </div>
     <div className="absolute top-[0%] left-[5%] md:block hidden">
