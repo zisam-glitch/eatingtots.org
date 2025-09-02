@@ -39,11 +39,11 @@ export default function directors() {
           <p>
             Denny Sena (Title: Vice President) Denny is a seasoned child
             care professional with ownership and operational experience
-            across three licensed group family daycare programs. He holds an
-            Associate’s degree in Accounting and combines his financial
+            across three licensed group family daycare programs. She holds an
+            Associate’s degree in Accounting and combines her financial
             acumen with hands-on expertise in early childhood care. Denny
             has been instrumental in mentoring new providers and
-            streamlining compliance processes across multiple sites. His
+            streamlining compliance processes across multiple sites. Her
             leadership style emphasizes quality care, community trust, and
             program sustainability. Denny brings practical insight into
             running successful daycares and scaling best practices across

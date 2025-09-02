@@ -9,9 +9,9 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <section className="bg-white">
+      <LogoSlider />
       <Header />
       <Hero />
-      <LogoSlider />
       <About />
       <Directors />
       <Registration />

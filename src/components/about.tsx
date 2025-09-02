@@ -4,8 +4,8 @@ import Image from 'next/image'
 export default function about() {
   return (
     <>
-      <section className="md:py-24 py-32 md:px-32 px-4 relative md:block hidden">
-        <div className="flex justify-between items-center px-12">
+      <section className="md:py-24 py-32 md:px-32 px-4 relative">
+        <div className="flex justify-between items-center px-12 md:block hidden">
           <Image src="/cookie.png" alt="cookie" width={70} height={70} />
           <Image src="/apple.png" alt="apple" width={70} height={70} />
           <Image src="/banana.png" alt="banana" width={70} height={70} />
