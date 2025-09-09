@@ -5,7 +5,7 @@ export default function about() {
   return (
     <>
       <section className="md:py-24 py-32 md:px-32 px-4 relative">
-        <div className="flex justify-between items-center px-12 md:block hidden">
+        <div className="justify-between items-center px-12 md:flex hidden">
           <Image src="/cookie.png" alt="cookie" width={70} height={70} />
           <Image src="/apple.png" alt="apple" width={70} height={70} />
           <Image src="/banana.png" alt="banana" width={70} height={70} />
@@ -58,35 +58,46 @@ export default function about() {
       <section className="bg-[#c1ff72] md:px-32 px-4 md:my-24 my-0 py-12 md:py-0 text-black">
         <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
           <div className="md:pr-12 pr-0 md:py-12 py-0">
-            <h1 className="text-4xl font-bold py-6 text-[#0da84a]">
+            {/* <h1 className="text-4xl font-bold py-6 text-[#0da84a]">
               Did you know{" "}
-            </h1>
-            <ul className="text-xl px-6 list-disc">
-              <li className="pb-2">
+            </h1> */}
+            <ul className="text-xl list-none">
+              <li className="pb-4">
+                Help Childcare Providers Speak Up — So Every Child Can Thrive!
+
+              </li>
+              <li className="pb-4">
                 Over 60% of childcare providers say improving their English
                 skills helps them communicate better with families and boost
                 their confidence on the job.
               </li>
-              <li className="pb-2">
+              <li className="pb-4">
                 Every minute counts during a child’s emergency — knowing CPR can
                 save a life.
               </li>
-              <li className="pb-2">
+              <li className="pb-4">
                 Eating Tots offers free CPR certification classes designed
                 specifically for childcare providers, so you’re ready when it
                 matters most.
               </li>
-              <li className="pb-2">
+              <li className="pb-4">
                 Our free English classes are tailored to childcare
                 professionals, helping you grow your skills and your career
                 without any cost.
               </li>
-              <li className="pb-2">
+              <li className="pb-4">
                 Providers who participate in training programs like ours often
                 see better child development outcomes and increased trust from
                 families.
               </li>
             </ul>
+            <div className='relative'>
+              <Image className='absolute top-0 md:-left-[45px] left-0' src="/carot.png" alt="cookie" width={70} height={70} />
+              <h1 className='text-[26px] text-center font-bold py-4 px-6 bg-[#f3c67d] '>
+                [Give Today — Support ESL & <br /> Safety for Childcare Providers]
+              </h1>
+              <Image className='absolute bottom-0 md:-right-[45px] right-0' src="/apple.png" alt="apple" width={70} height={70} />
+            </div>
           </div>
           <div>
             <img src="/women.png" alt="women" />
